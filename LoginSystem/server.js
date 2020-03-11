@@ -1,6 +1,10 @@
 const express = require('express');
 const app = express();
-const bcrypt = require('bcryptjs');
+const bcryptjs = require('bcryptjs');
+const passport = require('passport');
+
+const initializePassport = require('./passport-config');
+initializePassport(passport);
 
 const users = [];
 
@@ -25,7 +29,7 @@ app.get('/register', (req, res) => {
 
 app.post('/register', async (req, res) => {
     try{
-        const hashedPassword = await bcrypt.hash(req.body.password, 10);
+        const hashedPassword = await bcryptjs.hash(req.body.password, 10);
         users.push({
             id: Date.now().toString(),
             name: req.body.name,
@@ -37,7 +41,7 @@ app.post('/register', async (req, res) => {
     }catch{
         res.redirect('/register');
     }
-    console.log('Register sucedfull: ' + users);
+    console.log(users);
 });
 
 
