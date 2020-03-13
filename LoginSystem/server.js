@@ -2,14 +2,22 @@ const express = require('express');
 const app = express();
 const bcryptjs = require('bcryptjs');
 const passport = require('passport');
+const flash = require('express-flash');
+const session = require('express-sesseion');
 
 const initializePassport = require('./passport-config');
-initializePassport(passport);
+initializePassport(passport, email => {
+    return users.find(user => user.email === email);
+});
 
 const users = [];
 
 app.set('view-engine', 'ejs');
 app.use(express.urlencoded({ extended: false }));
+app.use(flash());
+app.use(session({
+    
+}));
 
 app.get('/', (req, res) => {
     res.render('index.ejs', {name: 'Felipe D. Santos'});
