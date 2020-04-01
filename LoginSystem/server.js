@@ -1,5 +1,5 @@
 if(process.env.NODE_ENV !== 'production') {
-    require(dotenv).config();
+    require('dotenv').config();
 }
 
 const express = require('express');
@@ -8,6 +8,7 @@ const bcryptjs = require('bcryptjs');
 const passport = require('passport');
 const flash = require('express-flash');
 const session = require('express-session');
+
 
 const initializePassport = require('./passport-config');
 initializePassport(passport, email => {

@@ -1,7 +1,7 @@
-const LocalStrategy = require('passport-local').Strategy;
-const bcrypt = require('bcryptjs');
+const LocalStrategy = require('passport-local').Strategy
+const bcryptjs = require('bcryptjs');
 
-function initialize(passport,  getUserByEmail) { 
+async function initialize(passport,  getUserByEmail) { 
 
     const authenticateUser = (email, password, done) => {
         const user = getUserByEmail(email)
@@ -10,7 +10,7 @@ function initialize(passport,  getUserByEmail) {
         }
 
         try {
-            if(await bcrypt.compare(password, use.password)) {
+            if(await bcryptjs.compare(password, user.password)) {
                 return done(null, user);
             } else {
                 return done(null. false, {message: 'Password incorrect'});
