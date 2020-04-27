@@ -1,5 +1,6 @@
 const nodeMailer = require("nodemailer");
 const hbs = require("nodemailer-express-handlebars");
+const path = require("path");
 
 const { host, port, user, pass } = require("../config/mail.json");
 
@@ -11,7 +12,8 @@ const transport = nodemailer.createTransport({
 
   transport.use("compile", hbs({
     viewEngine: "handlebars",
-    viwePath: ""
+    viwePath: path.resolve("./src/resources/mail/"),
+    extName: ".html"
   }));
 
   module.exports = transport;
