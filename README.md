@@ -13,4 +13,6 @@ Here I train and apply my knowledge in small projects, learning more and more to
   
   <img src='https://github.com/lycan-nt/-Laboratory_of_javascript-experiences/blob/master/Responsive_Navigation/1.PNG'>
 
+# The mind that opens up to a new idea will never return to its original size '. (Albert Einstein)
+
 <img src='https://github.com/lycan-nt/my_portyfolio/blob/master/img.jpg'>
