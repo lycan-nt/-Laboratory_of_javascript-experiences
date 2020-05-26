@@ -9,7 +9,7 @@ Here I train and apply my knowledge in small projects, learning more and more to
   
   Language: NodeJS, html/css/javascript
   
-  <a href='https://github.com/lycan-nt/-Laboratory_of_javascript-experiences/tree/master/Responsive_Navigation' _blanck>Access Project</a>
+  <a href='https://github.com/lycan-nt/-Laboratory_of_javascript-experiences/tree/master/Responsive_Navigation' _blank >Access Project</a>
   
   <img src='https://github.com/lycan-nt/-Laboratory_of_javascript-experiences/blob/master/Responsive_Navigation/1.PNG'>
 
