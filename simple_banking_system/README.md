@@ -22,8 +22,8 @@ A simple bank system where it is possible to consult the customer, consult the a
     if you don't have the code run extension choose one of the project's functions and run the code.
     
 ## Constructed with:
-  NodeJs
-  HTML / CSS
+    NodeJs
+    HTML / CSS
   
 
 ## Authors
