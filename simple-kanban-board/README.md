@@ -16,7 +16,7 @@
     open the index html file with it.
     
 ## Built with
-   html/ css/ javascript 
+    html/ css/ javascript 
    
 ## Thanks    
     I thank the rocketseat team for always publishing quality content so that we can go to the next level
