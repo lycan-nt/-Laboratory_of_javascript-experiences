@@ -17,3 +17,14 @@
     npm install or yarn install to install the dependencies, with all dependencies installed, run the 
     node app.js command on the terminal, the server will be started on port 3000, the access wheel will 
     be 127.0.0.1:3000/todo. Now and just test the system or implement changes according to your ideas.
+    
+## Built with
+    NodeJs
+    HTML/CSS/javascript
+    EJS
+        
+## Author
+    Felipe D. Santos
+    
+## License
+    MIT
