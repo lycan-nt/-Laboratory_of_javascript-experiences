@@ -9,7 +9,7 @@ Here I train and apply my knowledge in small projects, learning more and more to
   
   Language: html/css/javascript
   
-  <a "https://github.com/lycan-nt/-Laboratory_of_javascript-experiences/tree/master/ChatApp" >Access Project</a> or <a href='https://github.com/lycan-nt/-Laboratory_of_javascript-experiences/wiki/List' target="_blank" > Access list with all projects </a>
+  <a href="https://github.com/lycan-nt/-Laboratory_of_javascript-experiences/tree/master/ChatApp" >Access Project</a> or <a href='https://github.com/lycan-nt/-Laboratory_of_javascript-experiences/wiki/List' target="_blank" > Access list with all projects </a>
   
   <img src='https://github.com/lycan-nt/-Laboratory_of_javascript-experiences/blob/master/ChatApp/ChatApp.PNG'>
   
