@@ -7,7 +7,7 @@ Here I train and apply my knowledge in small projects, learning more and more to
 ## Recent Project
   Name: ChatApp
   
-  Language: html/css/javascript and Socket.io
+  Language: html/css/javascript
   
   <a href="https://github.com/lycan-nt/-Laboratory_of_javascript-experiences/blob/master/ChatApp/ChatApp.PNG" >Access Project</a> or <a href='https://github.com/lycan-nt/-Laboratory_of_javascript-experiences/wiki/List' target="_blank" > Access list with all projects </a>
   
