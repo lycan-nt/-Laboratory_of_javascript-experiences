@@ -5,13 +5,13 @@ Repository for creating small projects and perfecting development
 Here I train and apply my knowledge in small projects, learning more and more to overcome challenges.
 
 ## Recent Project
-  Name: Awesome accordio menu
+  Name: ChatApp
   
-  Language: html/css
+  Language: html/css/javascript and Socket.io
   
-  <a href='https://github.com/lycan-nt/-Laboratory_of_javascript-experiences/tree/master/Awesome_accordio_menu' target="_blank" >Access Project</a> or <a href='https://github.com/lycan-nt/-Laboratory_of_javascript-experiences/wiki/List' target="_blank" > Access list with all projects </a>
+  <a href="https://github.com/lycan-nt/-Laboratory_of_javascript-experiences/blob/master/ChatApp/ChatApp.PNG" >Access Project</a> or <a href='https://github.com/lycan-nt/-Laboratory_of_javascript-experiences/wiki/List' target="_blank" > Access list with all projects </a>
   
-  <img src='https://github.com/lycan-nt/-Laboratory_of_javascript-experiences/blob/master/Awesome_accordio_menu/Accordio.png'>
+  <img src='https://github.com/lycan-nt/-Laboratory_of_javascript-experiences/blob/master/ChatApp/ChatApp.PNG'>
   
 
 
